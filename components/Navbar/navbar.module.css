@@ -1,0 +1,71 @@
+.above_nav_list {
+  text-decoration: none;
+}
+.myClass {
+  border: red solid 5px;
+}
+.right_header_list {
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: white 1px solid;
+  border-top: none;
+  background-image: linear-gradient(rgb(14, 186, 230), rgb(224, 231, 233));
+}
+.right_header_item {
+  list-style: none;
+  padding: 0 7px;
+  font-size: 12px;
+}
+
+.nav_bottom {
+  border: solid blue 1px;
+  background: linear-gradient(to bottom, #3333cc 0%, #3399ff 100%);
+}
+
+.navbar_Item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hero-page {
+  background-image: url("https://www.swyftfilings.com/assets2/images/hero-home.jpg");
+  background-size: 1000px 800px;
+  background-size: cover;
+}
+.text-area {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container_ham {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(30, 6, 136);
+  margin: 6px 0;
+  transition: 1s;
+}
+.bar2 {
+  background-color: rgb(34, 148, 194);
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
