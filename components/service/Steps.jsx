@@ -20,7 +20,7 @@ function Steps({ content, heading }) {
                   return (
                     <div key={point} className="m-2 p-2 row">
                       <button className="btn btn-secondary col-2">
-                        Step {index}
+                        Step {index+1}
                       </button>
                       <div className="col">
                         <p>{point}</p>
